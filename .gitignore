@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+
+# downloaded/generated models and adapters -- ship via HF Hub, not git
+models/
+outputs/
+
+# third-party clone, not our code
+llama.cpp/
+
+# locally with scripts/extract_dataset.py + augment_dataset.py + identity_data.py
+data/
+
+*.gguf
+*.log
